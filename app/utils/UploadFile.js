@@ -1,6 +1,6 @@
 import * as firebase from "firebase";
 
-export const uploadImage = async (uri, nameImage, folder) => {
+export const UploadFile = async (uri, nameImage, folder) => {
     return new Promise((resolve, reject) => {
         let xhr = new XMLHttpRequest();
         xhr.onerror = reject;
